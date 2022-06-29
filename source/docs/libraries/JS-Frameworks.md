@@ -6,4 +6,4 @@
 * Vue: A security guide exists for [version 2](https://vuejs.org/v2/guide/security.html), but I have found none for version 3 yet.
 * Svelte: No security guide found
 
-Hence the choices made for [Stacked](https://github.com/tymyrddin/stacked), a React front-end with an express backend. And a work-in-progress for learning JS and pentesting JS applications.
+Hence the choice we made for React front-ends in our projects. And a work-in-progress for learning JS and pentesting JS applications.
