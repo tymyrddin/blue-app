@@ -6,10 +6,6 @@
 Application mitigations
 ===================================================
 
-All `Mitigations`_.
-
-.. _Mitigations: https://tymyrddin.github.io/mitigations/
-
 .. toctree::
    :glob:
    :maxdepth: 1
@@ -62,3 +58,8 @@ All `Mitigations`_.
 
    docs/testing/README.md
    docs/testing/*
+
+.. toctree::
+   :caption: All mitigations
+
+   Overview <https://tymyrddin.github.io/mitigations/>
