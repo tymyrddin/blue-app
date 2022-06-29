@@ -1,4 +1,4 @@
-# Lock down environment
+# Overview
 
 Lock down the development and production environment, using available security features to limit the scope of what the software under development can do to its host systems and adjacent networks. Even if an adversary finds and exploits a vulnerability, an environmental lockdown can restrict what the adversary can do, reducing the overall severity of the problem and making the adversary work harder. In some cases, the lockdown may prevent the problem from becoming a vulnerability in the first place.
 

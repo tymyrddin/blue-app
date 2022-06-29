@@ -10,7 +10,7 @@ Application mitigations
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Lockdown
+   :caption: Lockdown environment
 
    docs/lockdown/README.md
    docs/lockdown/*
@@ -54,7 +54,7 @@ Application mitigations
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Testing
+   :caption: Security testing
 
    docs/testing/README.md
    docs/testing/*

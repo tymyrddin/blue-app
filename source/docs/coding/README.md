@@ -1,4 +1,4 @@
-# Coding
+# Overview
 
 * Disable verbose error messages for messages that are displayed to users without special privileges.
 * Use context-sensitive server side output encoding, a combination of escaping, filtering, and validating string data when handling user input and output from the server (cross-site scripting (XSS))
