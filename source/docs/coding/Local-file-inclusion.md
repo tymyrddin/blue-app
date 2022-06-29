@@ -13,6 +13,7 @@ deliver the same behaviour, without the exposure.
 * Use verified and secured whitelist files and ignore everything else.
 * Do not include files on a web server that can be compromised, use a database instead.
 * Make the server send download headers automatically instead of executing files in a specified directory.
+* Do not use dynamic file inclusion. Use static file inclusion.
 
 ## Related attack trees
 
