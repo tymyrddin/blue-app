@@ -15,5 +15,5 @@
 
 ## Related attack trees
 
-* [Exploit file upload vulnerability](https://tymyrddin.github.io/attack-trees/docs/application/Exploit-file-upload-vuln.html)
+* [Exploit file upload vulnerabilities](https://tymyrddin.github.io/attack-trees/docs/application/Exploit-file-upload-vuln.html)
 * [Denial of Service (DoS)](https://tymyrddin.github.io/attack-trees/docs/network/DoS.html)
