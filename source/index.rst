@@ -49,6 +49,7 @@ Application mitigations
    :caption: Databases
 
    docs/databases/README.md
+   docs/databases/*
 
 .. toctree::
    :glob:

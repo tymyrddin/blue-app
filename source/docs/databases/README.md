@@ -1,7 +1,6 @@
 # Overview
 
-* Base validation on a whitelist: accept data fitting a specified structure, instead of rejecting patterns.
-* [Give me parameterized SQL, or give me death](https://blog.codinghorror.com/give-me-parameterized-sql-or-give-me-death/). Instead of concatenating strings, use secure database components such as stored procedures, parametrised queries, and object bindings for commands, or a Object-Relational Mapping (ORM) library.
-* Implement access control schemes. Restrict access to database objects and functionality, according to the Principle of Least Privilege (Insecure direct object references)
-
+* Implement access control schemes. Restrict access to database objects and functionality, according to the Principle of The Least Privilege (Insecure direct object references).
+* Base input validation on a whitelist. Use the most restrictive rule by default and allow special characters only by exception. This will reduce the attack surface for many vectors.
+* Use parameterised statements
 
