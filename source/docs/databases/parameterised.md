@@ -1,4 +1,4 @@
-# Parameterized statements
+# Parameterised statements
 
 A specific SQL injection software defense is the use of parameterised statements. 
 [Give me parameterised SQL, or give me death](https://blog.codinghorror.com/give-me-parameterized-sql-or-give-me-death/). 
