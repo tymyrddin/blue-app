@@ -17,4 +17,4 @@ deliver the same behaviour, without the exposure.
 
 ## Related attack trees
 
-* [Shell from local file inclusion vulnerabilities](https://tymyrddin.github.io/attack-trees/docs/application/Local-file-incl-vuln.html)
+* [Shell from local file inclusion vulnerabilities](attack-trees:docs/application/Local-file-incl-vuln)

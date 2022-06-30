@@ -13,4 +13,4 @@ first place.
 
 ## Related attack trees
 
-* [Exploit code execution vulnerabilities](https://tymyrddin.github.io/attack-trees/docs/application/Exploit-code-exec-vuln.html)
+* [Exploit code execution vulnerabilities](attack-trees:docs/application/Exploit-code-exec-vuln)

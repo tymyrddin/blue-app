@@ -8,4 +8,4 @@
 
 ## Related attack trees
 
-* [Shell from remote file inclusion vulnerabilities](https://tymyrddin.github.io/attack-trees/docs/application/Remote-file-incl-vuln.html)
+* [Shell from remote file inclusion vulnerabilities](attack-trees:docs/application/Remote-file-incl-vuln)
