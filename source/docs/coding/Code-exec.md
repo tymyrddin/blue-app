@@ -13,4 +13,4 @@ first place.
 
 ## Related attack trees
 
-* [Exploit code execution vulnerabilities](attack-trees:docs/application/Exploit-code-exec-vuln)
+* [Exploit code execution vulnerabilities](attack-trees:docs/application/Remote-code-execution)
