@@ -6,8 +6,8 @@
   * Remove dangerous characters from the data received as input. This is not enough. There are some techniques adversaries can use to evade such filters.
   * Validate browser-supplied input for it to only contain expected characters. Use whitelisting of acceptable characters and reject everything else.
 * Use client ***and*** server-side validation. Python validation can be used for making sure only expected data makes it into the application, and to inform users immediately of issues with their input.  
-* Establish and maintain control over all [inputs](Input.md)
-* Establish and maintain control over all [outputs](Output.md)
+* Establish and maintain control over all [inputs](input.md)
+* Establish and maintain control over all [outputs](output.md)
 * Mitigate the language specific most common vulnerabilities
-  * [JavaScript](Javascript.md)
-  * [Python](Python.md)
+  * [JavaScript](js.md)
+  * [Python](python.md)

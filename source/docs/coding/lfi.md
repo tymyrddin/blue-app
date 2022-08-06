@@ -7,7 +7,7 @@ positives, making the process tedious, lengthy and expensive. As a result many d
 Try to avoid passing user-supplied input to the filesystem APIs. Many of the functions that do that can be rewritten to 
 deliver the same behaviour, without the exposure. 
 
-* [Validate user input](Input.md) before processing it. Either compare the input against a whitelist of permitted values or verify that the input contains only permitted content – for example, alphanumeric characters.
+* [Validate user input](input.md) before processing it. Either compare the input against a whitelist of permitted values or verify that the input contains only permitted content – for example, alphanumeric characters.
 * After validation, verify that the canonicalised path starts with the expected base directory.
 * Save file paths in a secure database and give an ID for every single one, this way users only get to see their ID without viewing or altering the path.
 * Use verified and secured whitelist files and ignore everything else.

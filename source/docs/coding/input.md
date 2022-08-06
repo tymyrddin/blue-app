@@ -1,5 +1,10 @@
 # Input validation
 
+* Validate the user input before processing it. Compare against a whitelist of permitted values. If that is not 
+possible, then verify that the input contains only permitted content (for example only alphanumerics)
+* After validation, append the input to the base directory and use a platform filesystem API to canonicalize the path. 
+Verify the canonicalized path starts with the expected base directory. 
+
 Use a standard input validation mechanism to validate input for length, type of input, syntax, missing or extra inputs, and consistency across related fields. Understand all the potential areas where untrusted inputs can enter the application: parameters or arguments, cookies, anything read from the network, environment variables, reverse DNS lookups, query results, request headers, URL components, e-mail, files, databases, and any external systems that provide data to the application. Inputs may be obtained indirectly through API calls.
 
 * Validate on the server side to protect against attacks. Server side validation is also important for compatibility.
@@ -7,3 +12,8 @@ Use a standard input validation mechanism to validate input for length, type of 
 * Some validations can't be properly done in server-side application code, and are impossible in client-side code, because they depend on the current state of a database. Only the database can reliably validate data which depends on related data.
 
 For mitigating the low-hanging fruit, the OWASP has created a list of [Top 25 vulnerabilities](https://cwe.mitre.org/top25/archive/2020/2020_cwe_top25.html) that can be helpful. [MITRE](https://cwe.mitre.org) has more detailed descriptions and (coding) examples.
+
+## Related attack trees
+
+* [Directory traversal](attack-trees:docs/server/traversal)
+* [HTTP Response splitting](attack-trees:docs/server/response-splitting)
