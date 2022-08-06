@@ -1,14 +1,18 @@
-# TLS/SSL
+# Use TLS/SSL more securely
 
 ## Preventing MitM
 
 * Use HTTPS.
 * Use preloaded HSTS.
 * Harden SSL/TLS ciphers.
-  * Implement forward secrecy (See how to configure [apache](webserver-mitigations:docs/apache/forward-secrecy), nginx(webserver-mitigations:docs/nginx/forward-secrecy) webservers)
+  * Implement forward secrecy - how to configure [apache](webserver-mitigations:docs/apache/forward-secrecy), nginx(webserver-mitigations:docs/nginx/forward-secrecy) webservers)
   * Use authenticated encryption
   * Disable legacy protocols
   * [Generate a secure SSL configuration](https://ssl-config.mozilla.org/)
+
+# Related attack trees
+
+* [MitM between users and webserver](attack-trees:docs/server/mitm)
 
 ## Historical notes
 
@@ -25,4 +29,3 @@
   * The NULL cipher suites inform the browser not to encrypt data, therefore nullifying any protection given through the use of SSL/TLS. Do not have NULL.
   * Disable RC2 and SHA-1.
   * Consider disabling RC4 (Bar Mitzvah), DES and 3DES (Sweet32).
-
