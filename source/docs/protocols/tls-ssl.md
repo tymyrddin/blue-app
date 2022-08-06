@@ -10,7 +10,7 @@
   * Disable legacy protocols
   * [Generate a secure SSL configuration](https://ssl-config.mozilla.org/)
 
-# Related attack trees
+## Related attack trees
 
 * [MitM between users and webserver](attack-trees:docs/server/mitm)
 

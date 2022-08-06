@@ -1,4 +1,4 @@
-# Communication with server
+# Communication with and between servers
 
 Isolate communication between servers in the same account or team within the same region. Only services that are meant to be accessible by clients on the public internet need to be exposed on the public network.
 
