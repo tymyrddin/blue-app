@@ -17,4 +17,4 @@ deliver the same behaviour, without the exposure.
 
 ## Related attack trees
 
-* [Shell from local file inclusion vulnerabilities](attack-trees:docs/application/Local-file-inclusion)
+* [Shell from local file inclusion vulnerabilities](attack-trees:docs/application/lfi)

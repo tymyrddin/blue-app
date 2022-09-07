@@ -15,5 +15,5 @@
 
 ## Related attack trees
 
-* [Exploit file upload vulnerabilities](attack-trees:docs/application/File-upload)
+* [Exploit file upload vulnerabilities](attack-trees:docs/application/file-upload)
 * [Denial of Service (DoS)](red-network:docs/tcp-ip/DoS)

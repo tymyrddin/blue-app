@@ -15,4 +15,4 @@ Web cache poisoning vulnerabilities come into play due to general flaws in the d
 
 * [Cache poisoning](attack-trees:docs/server/poison-cache)
 * [HTTP Response splitting](attack-trees:docs/server/response-splitting)
-* [Cross-site scripting (XSS)](attack-trees:docs/application/XSS)
+* [Cross-site scripting (XSS)](attack-trees:docs/application/xss)
