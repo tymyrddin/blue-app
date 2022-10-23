@@ -1,4 +1,4 @@
-Web application mitigations
+Shift left web application
 ===================================================
 
 .. toctree::
@@ -58,4 +58,4 @@ Web application mitigations
 .. toctree::
    :caption: Links
 
-   All mitigations <https://tymyrddin.github.io/mitigations/>
+   Blue Team <https://tymyrddin.github.io/blue/>

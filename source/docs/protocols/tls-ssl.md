@@ -5,14 +5,10 @@
 * Use HTTPS.
 * Use preloaded HSTS.
 * Harden SSL/TLS ciphers.
-  * Implement forward secrecy - how to configure [apache](webserver-mitigations:docs/apache/forward-secrecy), [nginx](webserver-mitigations:docs/nginx/forward-secrecy) webservers)
+  * Implement forward secrecy - how to configure [apache](blue-webserver:docs/apache/forward-secrecy), [nginx](blue-webserver:docs/nginx/forward-secrecy) webservers)
   * Use authenticated encryption
   * Disable legacy protocols
   * [Generate a secure SSL configuration](https://ssl-config.mozilla.org/)
-
-## Related attack trees
-
-* [MitM between users and webserver](attack-trees:docs/server/mitm)
 
 ## Historical notes
 

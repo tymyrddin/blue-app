@@ -12,8 +12,3 @@ Use a standard input validation mechanism to validate input for length, type of 
 * Some validations can't be properly done in server-side application code, and are impossible in client-side code, because they depend on the current state of a database. Only the database can reliably validate data which depends on related data.
 
 For mitigating the low-hanging fruit, the OWASP has created a list of [Top 25 vulnerabilities](https://cwe.mitre.org/top25/archive/2020/2020_cwe_top25.html) that can be helpful. [MITRE](https://cwe.mitre.org) has more detailed descriptions and (coding) examples.
-
-## Related attack trees
-
-* [Directory traversal](attack-trees:docs/server/traversal)
-* [HTTP Response splitting](attack-trees:docs/server/response-splitting)

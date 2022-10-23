@@ -10,9 +10,3 @@ Web cache poisoning vulnerabilities come into play due to general flaws in the d
   * Do not accept fat GET requests. 
   * Some third-party technologies permit such fat GET requests by default. In general, disable caching by third party frameworks. Do caching at one point.
   * Patch client-side XSS vulnerabilities. Including those that seem not exploitable. They can become exploitable due to strange behaviours of the cache, so that even in the event of such a vulnerability, the user’s browser can’t be exploited.
-
-## Related attack trees
-
-* [Cache poisoning](attack-trees:docs/server/poison-cache)
-* [HTTP Response splitting](attack-trees:docs/server/response-splitting)
-* [Cross-site scripting (XSS)](attack-trees:docs/application/xss)

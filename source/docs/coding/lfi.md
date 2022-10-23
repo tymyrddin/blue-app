@@ -14,7 +14,3 @@ deliver the same behaviour, without the exposure.
 * Do not include files on a web server that can be compromised, use a database instead.
 * Make the server send download headers automatically instead of executing files in a specified directory.
 * Do not use dynamic file inclusion. Use static file inclusion.
-
-## Related attack trees
-
-* [Shell from local file inclusion vulnerabilities](attack-trees:docs/application/lfi)

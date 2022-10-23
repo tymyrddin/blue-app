@@ -10,7 +10,3 @@ because the system needs to be compromised first.
 
 The best way to avoid reverse shells is to protect against attacks that allow impostors to gain shell access in the 
 first place.
-
-## Related attack trees
-
-* [Exploit code execution vulnerabilities](attack-trees:docs/application/rce)

@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Application mitigations'
+project = 'Shift left web application'
 copyright = '2022, TyMyrddin'
 author = 'TyMyrddin'
 
@@ -57,7 +57,7 @@ html_theme = 'sphinx_rtd_theme'
 html_theme_options = {
     'display_version': True,
     'prev_next_buttons_location': 'bottom',
-    'style_external_links': True,
+    'style_external_links': False,
     # Toc options
     'collapse_navigation': False,
     'sticky_navigation': False,
@@ -66,7 +66,7 @@ html_theme_options = {
     'titles_only': True
 }
 
-html_title = "Application mitigations"
+html_title = "Shift left web application"
 html_logo = "img/logo.png"
 html_favicon = "img/favicon.ico"
 
@@ -90,23 +90,9 @@ html_show_copyright = False
 
 # Intersphinx
 intersphinx_mapping = {
-    "attack-trees": ("https://tymyrddin.github.io/attack-trees/", None),
-    "red-network": ("https://tymyrddin.github.io/red-network/", None),
+    "blue": ("https://tymyrddin.github.io/blue/", None),
+    "blue-webserver": ("https://tymyrddin.github.io/blue-webserver/", None),
     "red-cloud": ("https://tymyrddin.github.io/red-cloud/", None),
-    "cheatsheets": ("https://tymyrddin.github.io/cheatsheets/", None),
-    "e2ee-threat-model":("https://tymyrddin.github.io/e2ee-threat-model/", None),
-    "da-threat-model":("https://tymyrddin.github.io/da-threat-model/", None),
-    "se-threat-model":("https://tymyrddin.github.io/se-threat-model/", None),
-    "app-threat-model":("https://tymyrddin.github.io/app-threat-model/", None),
-    "cicd-threat-model":("https://tymyrddin.github.io/cicd-threat-model/", None),
-    "linux-pc-mitigations":("https://tymyrddin.github.io/linux-pc-mitigations/", None),
-    "linux-server-mitigations":("https://tymyrddin.github.io/linux-server-mitigations/", None),
-    "data-mitigations":("https://tymyrddin.github.io/data-mitigations/", None),
-    "webserver-mitigations":("https://tymyrddin.github.io/webserver-mitigations/", None),
-    "mailserver-mitigations":("https://tymyrddin.github.io/mailserver-mitigations/", None),
-    "network-mitigations":("https://tymyrddin.github.io/network-mitigations/", None),
-    "android-mitigations": ("https://tymyrddin.github.io/android-mitigations/", None),
-    "windows-pc-mitigations": ("https://tymyrddin.github.io/windows-pc-mitigations/", None),
-    "macos-mitigations": ("https://tymyrddin.github.io/macos-mitigations/", None)
+    "red-network": ("https://tymyrddin.github.io/red-network/", None),
 }
 myst_url_schemes = ["http", "https", ]
