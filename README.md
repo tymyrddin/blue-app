@@ -1,7 +1,7 @@
 # Application mitigations
 
-![Publish Application mitigations using Sphinx](https://github.com/tymyrddin/app-mitigations/workflows/Publish%20Application%20mitigations%20using%20Sphinx/badge.svg?branch=main)
- Deployed: https://tymyrddin.github.io/app-mitigations/
+![Publish Application mitigations using Sphinx](https://github.com/tymyrddin/blue-app/workflows/Publish%20Application%20mitigations%20using%20Sphinx/badge.svg?branch=main)
+ Deployed: https://tymyrddin.github.io/blue-app/
 
 Built with [Sphinx](https://www.sphinx-doc.org) using a [theme](https://github.com/readthedocs/sphinx_rtd_theme) provided
 by [Read the Docs](https://readthedocs.org/).
@@ -26,7 +26,8 @@ $ make html
 
 This project welcomes contributions and suggestions. 
 
-[Open an issue here](https://github.com/tymyrddin/app-mitigations/issues)
+[Open an issue here](https://github.com/tymyrddin/blue-app/issues)
 
 ## Mind
-Where you stand depends on where you sit, and all threats are cross-vector threats. Without a clear mandate for testing, measuring and reporting actual improvements in security, attempts at improving security makes absolutely no sense, not even for the low-hanging fruit.  
+
+Tourist, Rincewind decided, meant "idiot". ~ TP
