@@ -47,6 +47,17 @@ Shift left web application
    docs/databases/*
 
 .. toctree::
+   :maxdepth: 1
+   :includehidden:
+   :caption: API
+
+   docs/api/README.md
+   docs/api/monitor.md
+   docs/api/scan.md
+   docs/api/notrust.md
+   docs/api/tools.md
+
+.. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
