@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Shift left web application'
+project = 'Shift left web applications'
 copyright = '2022, TyMyrddin'
 author = 'TyMyrddin'
 
@@ -66,7 +66,7 @@ html_theme_options = {
     'titles_only': True
 }
 
-html_title = "Shift left web application"
+html_title = "Shift left web applications"
 html_logo = "img/logo.png"
 html_favicon = "img/favicon.ico"
 

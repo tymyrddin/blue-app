@@ -1,4 +1,4 @@
-name: Publish Application mitigations using Sphinx
+name: Publish blue-app using Sphinx
 
 on:
   push:

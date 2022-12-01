@@ -1,4 +1,4 @@
-Shift left web application
+Shift left web applications
 ===================================================
 
 .. toctree::
