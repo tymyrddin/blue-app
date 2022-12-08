@@ -69,4 +69,4 @@ Shift left web applications
 .. toctree::
    :caption: Links
 
-   Blue Team <https://tymyrddin.github.io/blue/>
+   Blue Team <https://blue.tymyrddin.dev/>
