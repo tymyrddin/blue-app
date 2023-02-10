@@ -5,11 +5,6 @@ The process of designing and reviewing a software design with security considera
 
 ----
 
-.. image:: _static/images/shift-left.png
-  :alt: Useful books
-
-----
-
 .. toctree::
    :glob:
    :maxdepth: 1
@@ -74,3 +69,8 @@ The process of designing and reviewing a software design with security considera
 
    docs/testing/README.md
    docs/testing/*
+
+----
+
+.. image:: _static/images/shift-left.png
+  :alt: Useful books
