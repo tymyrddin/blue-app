@@ -74,8 +74,3 @@ The process of designing and reviewing a software design with security considera
 
    docs/testing/README.md
    docs/testing/*
-
-.. toctree::
-   :caption: Links
-
-   Blue Team <https://blue.tymyrddin.dev/>
