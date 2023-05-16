@@ -91,9 +91,9 @@ html_show_copyright = False
 
 # Intersphinx
 intersphinx_mapping = {
-    "blue": ("https://blue.tymyrddin.dev/en/latest/", None),
-    "blue-webserver": ("https://blue.tymyrddin.dev/projects/webserver/en/latest/", None),
-    "red-cloud": ("https://red.tymyrddin.dev/projects/cloud/en/latest/", None),
-    "red-network": ("https://red.tymyrddin.dev/projects/network/en/latest/", None),
+    "blue": ("https://blue.tymyrddin.dev/", None),
+    "blue-webserver": ("https://webserver.tymyrddin.dev/", None),
+    "red-cloud": ("https://cloud.tymyrddin.dev/", None),
+    "red-network": ("https://network.tymyrddin.dev/", None),
 }
 myst_url_schemes = ["http", "https", ]

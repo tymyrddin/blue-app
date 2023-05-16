@@ -5,7 +5,7 @@
 * Use HTTPS.
 * Use preloaded HSTS.
 * Harden SSL/TLS ciphers.
-  * Implement forward secrecy - how to configure [apache](blue-webserver:docs/apache/forward-secrecy), [nginx](blue-webserver:docs/nginx/forward-secrecy) webservers)
+  * Implement [forward secrecy](blue-webserver:docs/encryption/forward-secrecy)
   * Use authenticated encryption
   * Disable legacy protocols
   * [Generate a secure SSL configuration](https://ssl-config.mozilla.org/)
