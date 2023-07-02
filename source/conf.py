@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Shift left web applications'
+project = 'Securing web applications'
 copyright = '2022, TyMyrddin'
 author = 'TyMyrddin'
 
@@ -34,6 +34,8 @@ extensions = [
     'myst_parser',
     'sphinx_markdown_tables',
     'sphinx.ext.intersphinx',
+    'sphinx_copybutton',
+    'sphinx_design',
 ]
 
 source_suffix = ['.rst', '.md']
@@ -67,7 +69,7 @@ html_theme_options = {
     'titles_only': True
 }
 
-html_title = "Shift left web applications"
+html_title = "Securing web applications"
 html_logo = "img/logo.png"
 html_favicon = "img/favicon.ico"
 
@@ -97,3 +99,10 @@ intersphinx_mapping = {
     "red-network": ("https://network.tymyrddin.dev/", None),
 }
 myst_url_schemes = ["http", "https", ]
+
+myst_enable_extensions = [
+    "amsmath",
+    "dollarmath",
+    "tasklist",
+    "colon_fence",
+]

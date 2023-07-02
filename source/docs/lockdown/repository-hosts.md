@@ -12,4 +12,4 @@
 
 ## Related attack trees
 
-* [Poison open source supply chains](red-cloud:docs/notes/cicd)
+* [Poison open source supply chains](https://cloud.tymyrddin.dev/docs/notes/cicd)

@@ -5,7 +5,7 @@
 * Use HTTPS.
 * Use preloaded HSTS.
 * Harden SSL/TLS ciphers.
-  * Implement [forward secrecy](blue-webserver:docs/encryption/forward-secrecy)
+  * Implement [forward secrecy](https://webserver.tymyrddin.dev/docs/encryption/forward-secrecy)
   * Use authenticated encryption
   * Disable legacy protocols
   * [Generate a secure SSL configuration](https://ssl-config.mozilla.org/)

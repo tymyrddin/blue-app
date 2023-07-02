@@ -1,7 +1,10 @@
-Shift left web applications
+Securing web applications
 ===================================================
 
-The process of designing and reviewing a software design with security considerations in mind.
+The process of designing and reviewing a software design with security considerations in mind. Some notes ...
+
+.. image:: _static/images/in-progress.png
+  :alt: Forever in progress ...
 
 ----
 
@@ -72,5 +75,27 @@ The process of designing and reviewing a software design with security considera
 
 ----
 
-.. image:: _static/images/shift-left.png
-  :alt: Useful books
+Books
+---------------------------
+
+.. card-carousel:: 3
+
+    .. card::
+        :link: https://nostarch.com/designing-secure-software
+
+        .. image:: _static/images/bookcovers/designing-secure-software.png
+
+    .. card::
+        :link: https://nostarch.com/websecurity
+
+        .. image:: _static/images/bookcovers/web-security-for-developers.png
+
+    .. card::
+        :link: https://www.manning.com/books/securing-devops
+
+        .. image:: _static/images/bookcovers/securing-devops.png
+
+    .. card::
+        :link: https://bpbonline.com/products/implementing-devsecops-with-docker-and-kubernetes
+
+        .. image:: _static/images/bookcovers/devsecops-containers-kubernetes.png
